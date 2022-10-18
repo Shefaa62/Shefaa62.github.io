@@ -1,0 +1,83 @@
+  
+        .container {
+            width: 580px; 
+            height: 570px;
+             border: 0px sticky rgb(192, 188, 188); 
+             margin: 0 auto;
+        }
+        .col {
+            width: 275px;
+            height: 300px;
+            background-color: white; 
+            float: left;
+            border: 1px solid rgba(0, 0, 0, 0.64);
+            padding: sticky;
+            margin: 0px;
+        }
+        img {
+            display: inline-block;
+            width: 100%;
+            height: 100%;   
+        }
+        img {
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            
+        }
+        
+        
+    
+
+        
+        body {
+            
+            font-size: 2;
+            line-height: 0.73; 
+            text-align: none;
+            height: 100%;
+            position: relative;
+            font-size: large;
+                 
+        }
+        hr {
+            border: sticky;
+            color: black;
+            width: 45%;
+            height: none;
+            position: relative;
+            right: 30%;
+            line-height: 2.0em;
+            
+            
+           
+        }
+        h1 {
+            text-align: 70%;
+            text-emphasis: none;
+            text-rendering: auto;
+            text-size-adjust: 50%;
+            float: 50%;
+            position: relative;
+            left: 40px;
+            height: 15%;
+            
+            
+
+            
+            
+
+        }
+        p {
+            text-size-adjust: 10%;
+            float: left;
+            position: relative;
+            right: 0px;
+            height: 50%;
+            font-size: medium;
+            
+        }
+        
+        
+
+        
