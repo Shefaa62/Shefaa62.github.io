@@ -1,84 +1,118 @@
 .grid-container {
-  display: grid;
-  gap: 0px;
-  grid-template-columns:auto auto auto;
-  background-color:rgba(0, 0, 0, 0.648);
-  padding: 0px;
-  width:0px;
-}
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.575);
-  padding: 300px;
-  font-size: 100px;
-  text-align: center;
-  display: inline-grid;
-}
-
- body {
-  background: url("images/314408745_6083050935061745_1065459708241362352_n.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
- .article{
-    background: url("images/314342028_649415676759098_658596126870409569_n\ \(1\).jpg")no-repeat right 70% 70% 70%;
-    float: right;
-    right: 70%;
+    display: grid;
+    gap: 0px;
+    grid-template-columns:auto auto auto;
+    background-color:rgba(0, 0, 0, 0.648);
+    padding: 0px;
+    width:0px;
     
-  
   }
-  .img {
-
-  }
-         
-  .circle {
-    width: 10rem;
-    height: 10rem;
-    border-radius: 5rem;
-    background: #333;
-    color: #fff;
-    margin-left: auto;
-    margin-top: auto;
-    font-size: 76%;
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0px solid rgba(0, 0, 0, 0.575);
+    padding: 160px;
+    font-size: 100px;
     text-align: center;
-    transform: rotate(600) ;
     
-  
   }
-          
-         
-  .circle::before {
-    content: "";
-    height: 100%;
-    width: 50%;
-    float: left;
-    shape-outside: polygon(0 0, 100% 0, 60% 4%, 40% 10%, 20% 20%, 10% 28.2%, 5% 34.4%, 0 50%, 5% 65.6%, 10% 71.8%, 20% 80%, 40% 90%, 60% 96%, 100% 100%, 0% 100%);
   
+  body {
+    background:no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
-          
   
-  .circle>span::before {
-    content: "";
-    height: 100%;
-    width: 50%;
-    float: right;
-    shape-outside: polygon(100% 0, 0 0, 40% 4%, 60% 10%, 80% 20%, 90% 28.2%, 95% 34.4%, 100% 50%, 95% 65.6%, 90% 71.8%, 80% 80%, 60% 90%, 40% 96%, 0 100%, 100% 100%);
-  
-  }
-  .article>img{
-    position: relative;
-    height: 50%;
-    will-change: auto;
-    width: 50%;
-    margin-top: auto;
-    float: left;
-    left: 70%;
-    
 
-  }
+           
+  .circle {
+      width: 250px;
+      height:250px;
+      border-radius: 250rem;
+      background: rgb(21, 27, 11);
+      color: #fff;
+      margin-left: auto;
+      margin-top: auto;
+      font-size: 76%;
+      text-align: center;
+      transform: rotate(300deg) translate(-4em) rotate(-300deg);
 
+    }
+      
+    .img1{ 
+     
+     float: left;
+     left: 100%;
+     position: justify;
+     background-image: url("file:///C:/Users/47486/OneDrive/Skrivebord/web%20utvikling/magazine/images/314342028_649415676759098_658596126870409569_n%20(1).jpg");
+     background-position: top left;
+     background-position: 300px 300px;
+     background-position: 100% 100%;
+     transform: rotate(500deg) translate(3.79em)  rotate(-500deg);
+     margin-top: auto;
+     margin-left: auto;
+     
+    }
+
+
+    .box {
+        width: 350px;
+        border: 1px solid black;
+        padding: 70px;
+        margin: 3px;
+        background-color:rgb(21, 27, 11) ;
+        transform: rotate(500deg) translate(3.79em) rotate(-500deg);
+        color: #fff;
+        top: 100%;
+        line-height: 25px;
         
+    }
+
+    .small{
+        position: relative;
+        bottom: 25%;
+        line-height: 5px;
+        text-align: center;
+        text-size-adjust: 100p;
+
+    }
+
+    .h6{
+        position: relative;
+        vertical-align: top;
+        top: 100%;
+        margin-top: auto ;
+        margin: -100px;
         
+    }
+
+    .article{
+        text-align: center;
+        text-size-adjust: 10px;
+        position: relative;
+        vertical-align: bottom;
+        bottom: 850px;
+        margin-bottom: auto;
+        line-height: 40px;
+        margin: 400px;
+        font-size: xx-large;
+        height: 0px;
+        width: 585.5px;
+        padding: 1px;   
+    }
+
+    .text{
+        font-family: 'Euphoria Script', cursive;
+        font-family: 'Luxurious Script', cursive;
+    }
+
+    .main {
+        font-family: 'Euphoria Script', cursive;
+        font-family: 'Luxurious Script', cursive;
+        font-size: 119px ;
+        line-height: 72.99px;
+        
+
+    }
+     
